@@ -1,0 +1,52 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top; 
+}
+.logo {
+    width:23%;
+    padding:1%;
+}
+nav {
+    width:73%;
+    padding:1%;
+}
+ul {
+    width:50%;
+    margin-left:auto;
+}
+.logo {
+    text-align: center;
+}
+.heroimg {
+    height:600px;
+    padding:25px;
+}
+.content {
+    width:500px;
+    margin:50px auto;
+}
+footer {
+    background-color:#373738;
+    padding: center;
+
+}
+footer ul {
+    padding: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.flexContainer {
+    display:flex;
+    margin:0 auto;
+    padding:25px;
+    width:33%;
+
+}
+.workGrid {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+@media only screen and (max-width:600){
+
+}
