@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <link rel="stylesheet" href="CSS/style.css">
+        <title>AFFILIATED TRIBES OF NORTHWEST INDIANS (ATNI-EDC)</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#p1").hover(function(){
+    alert("You entered Sabrina's Resume!");
+  },
+  function(){
+    alert("Bye! You now leave the resume!");
+  }); 
+});
+</script>
+<script>
+    $(document).ready(function(){
+      $("#p2").hover(function(){
+        alert("You entered the project!");
+      },
+      function(){
+        alert("Bye! You now leave the project!");
+      }); 
+    });
+    </script>
+    </head>
+    <body>
+    
+    <p id="p1">This is a paragraph.</p>
     </head>
     <body>
         <header>
             <div class="inline-block" class="logo">
-                <img src="file:///C:/Users/sabri/OneDrive/Desktop/UXUI%20Design%20Coding/Sabrina-dinh-week17hw/UX_UI_HW_17/Images/slogo.png" class="logo">
+                <img src="Images/slogo.png" class="logo">
             </div>
             <nav class="inline-block">
                 <ul>
@@ -18,9 +44,8 @@
                 </ul>
             </nav>
         </header>
-        <section class="heroimg">
-            <div class="content">
-                <img src="file:///C:/Users/sabri/Downloads/_HUY2335.JPEG">
+        <div class="hero>">
+                <img src="Images/hero.JPEG">
                 <p>It’s a pleasure to meet you!
 
                     My name is Sabrina Dinh, and I am a junior UX/UI Designer. 
@@ -31,25 +56,25 @@
                     Please don’t be scared to reach out to me!
                     
                 </p>
-                <button>Download Resume</button>
+                <button>
+                    <p id="p1">Download Resume</p></button>
             </div>
-        </section>
         <!--My UX SKills section coded using CSS Flex-->
         <section class="mySkills">
             <h1>My UX Skills</h1>
             <div class="flexContainer">
-                <div>
-                    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fsealectplastics.com%2Fwp-content%2Fuploads%2F2020%2F02%2FProduct-Concept-Design-and-Development-SEA-LECT-Plastics.jpg&tbnid=dq9CF3pEHZxSYM&vet=12ahUKEwj8-KWT1OT-AhUreDABHZkPCQAQMygEegUIARD6AQ..i&imgrefurl=https%3A%2F%2Fsealectplastics.com%2Fnews%2Fprototyping-five-steps-from-concept-to-reality%2F&docid=AI5-Tn0qhvCEGM&w=2000&h=1200&q=prototyping%20images&ved=2ahUKEwj8-KWT1OT-AhUreDABHZkPCQAQMygEegUIARD6AQ">
+                <div class="prototype">
+                    <img src="Images/prototyping.jpg">
                     <h3>Prototyping</h3>
                     <p>I enjoy prototyping, connecting pages to one another. I find it fascinating being able to find different transitions and animations to make the product work</p>
                 </div>
-                <div>
-                    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.datocms-assets.com%2F16499%2F1583240488-benefitsofuxresearch.jpg%3Fauto%3Dformat&tbnid=IU8Arw6VoPWOgM&vet=12ahUKEwisiMqZ1eT-AhWOcDABHTaEDMwQMygGegUIARD3AQ..i&imgrefurl=https%3A%2F%2Fadamfard.com%2Fblog%2Fbenefits-of-ux-research&docid=t6VJ0JnI3wu5tM&w=1440&h=818&q=user%20research%20images&ved=2ahUKEwisiMqZ1eT-AhWOcDABHTaEDMwQMygGegUIARD3AQ">
+                <div class="research">
+                    <img src="Images/uxresearch.jpg">
                     <h3>User Research</h3>
                     <p>Being able to go out and interview people is one of the most rewarding aspects of being a UX/UI Designer. Obtaining people’s answers and finding out how they view products is the best way to improve a product </p>
                 </div>
-                <div>
-                    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Felearningindustry.com%2Fwp-content%2Fuploads%2F2015%2F09%2F10-tips-to-improve-your-visual-design-skills-for-non-designers.jpg&tbnid=Y2R6klh5A1JD3M&vet=12ahUKEwjU54Tn1eT-AhUZeTABHUefAswQMygAegUIARDpAQ..i&imgrefurl=https%3A%2F%2Felearningindustry.com%2F10-tips-improve-visual-design-skills-non-designers&docid=oDz6NJmCXsWcTM&w=1920&h=1224&q=visual%20design%20images&ved=2ahUKEwjU54Tn1eT-AhUZeTABHUefAswQMygAegUIARDpAQ">
+                <div class="visual">
+                    <img src="Images/visual.jpg">
                     <h3>Visual Design</h3>
                     <p>I love being able to view every product as an artwork. Offering my creativity and designing products is a challenge that is so rewarding when users enjoy the end result </p>
                 </div>
@@ -66,7 +91,9 @@
                     <h4>CallBack
                     </h4>
                     <p>For this project, I worked alongside with 4 other UX Designers to create an app/website named “CallBack”. The goal that we wanted to achieve for CallBack was to create a space an environment for UX/UI Designers to give and receive feedback on their portfolios. </p>
-                    <button>View Project</button>
+                    <button>
+                        <p id="p2">View Project</p>
+                    </button>
                 </div>
                 <div>
                     <img>
@@ -75,7 +102,8 @@
                     <h4>ATNI-EDC</h4>
                     <p>The Affiliated Tribes of Northwest Indians Economic Development Corporation helps to create economic opportunities for Tribes of the Pacific Northwest and individual tribal members through business loans. In this project, I aided in the process of redesigning the website
                     </p>
-                    <button>View Project</button>
+                    <button>
+                        <p id="p2">View Project</p></button>
                 </div>
             </div>
             <h3>View all projects</h3>
@@ -88,6 +116,10 @@
                 <li class="inline-block">Contact</li>
             </ul>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     </body>
     <script src="Js/index.js"></script>
 </html>

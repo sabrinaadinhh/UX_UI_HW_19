@@ -50,3 +50,20 @@ footer ul {
 @media only screen and (max-width:600){
 
 }
+
+.research img {
+    width: 137%;
+    height: 27%;
+}
+
+.visual img {
+    width: 137%;
+    height: 27%;
+}
+
+.hero {
+    align-content: center;
+}
+ footer {
+    background-color: lightpink;
+ }
